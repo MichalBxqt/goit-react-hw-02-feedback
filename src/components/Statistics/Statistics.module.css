@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+  }
+  
+  .item {
+    background-color: rgb(157, 219, 244);
+    display: flex;
+    min-width: 150px;
+    min-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    flex-grow: 1;
+  }
